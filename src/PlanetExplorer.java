@@ -65,6 +65,28 @@ public class PlanetExplorer {
 					
 				}
 			}
+			else if(pomocni.equalsIgnoreCase("f")){
+				if(smer.equalsIgnoreCase("n")){
+					if(koordinataY == granicaY){
+						koordinataY=0;
+					}
+					else{
+						koordinataY++;
+					}
+				}
+				else if(smer.equalsIgnoreCase("e")){
+					smer = "n";
+				}
+				else if(smer.equalsIgnoreCase("s")){
+					smer = "e";
+				}
+				else if(smer.equalsIgnoreCase("w")){
+					smer="s";
+				}
+				else{
+					
+				}
+			}
 		}
 		
 		/* The command string is composed of "f" (forward), "b" (backward), "l" (left) and "r" (right)
