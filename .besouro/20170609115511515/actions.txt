@@ -60,3 +60,9 @@ RefactoringAction 1497004325889 PlanetExplorerException.java RENAME Ex=>String E
 RefactoringAction 1497004328400 PlanetExplorerException.java RENAME Exce=>String Exception FIELD
 RefactoringAction 1497004333916 PlanetExplorerException.java RENAME Exception=>String Exception() METHOD
 EditAction 1497004347422 PlanetExplorerException.java 110 1 1 0
+RefactoringAction 1497004616875 TestPlanetExplorer.java ADD void tetst FIELD
+RefactoringAction 1497004619393 TestPlanetExplorer.java RENAME tetst=>void test FIELD
+RefactoringAction 1497004621408 TestPlanetExplorer.java RENAME test=>void test_ FIELD
+RefactoringAction 1497004622422 TestPlanetExplorer.java RENAME test_=>void test_L FIELD
+RefactoringAction 1497004623436 TestPlanetExplorer.java RENAME test_L=>void test_L() METHOD
+EditAction 1497004722386 TestPlanetExplorer.java 543 2 4 2
