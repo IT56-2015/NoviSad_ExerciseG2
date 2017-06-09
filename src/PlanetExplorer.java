@@ -1,3 +1,4 @@
+import org.hamcrest.core.SubstringMatcher;
 
 // Before you commit and push write your student ID and finish time here.
 // Finish time:
@@ -9,6 +10,7 @@ public class PlanetExplorer {
 	public int granicaY;
 	public int koordinataX;
 	public int koordinataY;
+	public String smer = "n"; 
 	public PlanetExplorer(int x, int y, String obstacles){
 	/*	x and y represent the size of the grid.
 	 *  Obstacles is a String formatted as follows: "(obs1_x,obs1_y)(obs2_x,obs2_y)...(obsN_x,obsN_y)" with no white spaces. 
@@ -26,6 +28,16 @@ public class PlanetExplorer {
 	
 	public String executeCommand(String command){
 		
+		char[] komanda = command.toCharArray();
+		for(int i=0; i<command.length(); i++){
+			String pomocni = command.substring(i, i+1);
+			if(pomocni.equalsIgnoreCase("r")){
+				if(smer.equalsIgnoreCase("n")){
+					smer = "e";
+				}
+			}
+		}
+		
 		/* The command string is composed of "f" (forward), "b" (backward), "l" (left) and "r" (right)
 		 * Example: 
 		 * The explorer is on a 100x100 grid at location (0, 0) and facing NORTH. 
@@ -37,5 +49,45 @@ public class PlanetExplorer {
 		 */
 		
 		return null;
+	}
+
+	public int getGranicaX() {
+		return granicaX;
+	}
+
+	public void setGranicaX(int granicaX) {
+		this.granicaX = granicaX;
+	}
+
+	public int getGranicaY() {
+		return granicaY;
+	}
+
+	public void setGranicaY(int granicaY) {
+		this.granicaY = granicaY;
+	}
+
+	public int getKoordinataX() {
+		return koordinataX;
+	}
+
+	public void setKoordinataX(int koordinataX) {
+		this.koordinataX = koordinataX;
+	}
+
+	public int getKoordinataY() {
+		return koordinataY;
+	}
+
+	public void setKoordinataY(int koordinataY) {
+		this.koordinataY = koordinataY;
+	}
+
+	public String getSmer() {
+		return smer;
+	}
+
+	public void setSmer(String smer) {
+		this.smer = smer;
 	}
 }

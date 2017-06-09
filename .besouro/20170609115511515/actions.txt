@@ -25,3 +25,16 @@ RefactoringAction 1497002831746 PlanetExplorer.java ADD int koordi FIELD
 RefactoringAction 1497002833268 PlanetExplorer.java RENAME koordi=>int koordinata FIELD
 RefactoringAction 1497002835282 PlanetExplorer.java RENAME koordinata=>int koordinataY FIELD
 EditAction 1497002887180 PlanetExplorer.java 1426 2 5 0
+RefactoringAction 1497003067691 PlanetExplorer.java ADD char smer FIELD
+RefactoringAction 1497003590395 PlanetExplorer.java ADD int getGranicaX() METHOD
+RefactoringAction 1497003590397 PlanetExplorer.java ADD void setGranicaX(int) METHOD
+RefactoringAction 1497003590414 PlanetExplorer.java ADD int getGranicaY() METHOD
+RefactoringAction 1497003590415 PlanetExplorer.java ADD void setGranicaY(int) METHOD
+RefactoringAction 1497003590416 PlanetExplorer.java ADD int getKoordinataX() METHOD
+RefactoringAction 1497003590416 PlanetExplorer.java ADD void setKoordinataX(int) METHOD
+RefactoringAction 1497003590418 PlanetExplorer.java ADD int getKoordinataY() METHOD
+RefactoringAction 1497003590419 PlanetExplorer.java ADD void setKoordinataY(int) METHOD
+RefactoringAction 1497003590420 PlanetExplorer.java ADD String getSmer() METHOD
+RefactoringAction 1497003590422 PlanetExplorer.java ADD void setSmer(String) METHOD
+RefactoringAction 1497003865381 PlanetExplorer.java ADD import org.hamcrest.core.SubstringMatcher IMPORT
+EditAction 1497003973914 PlanetExplorer.java 2374 12 17 0
