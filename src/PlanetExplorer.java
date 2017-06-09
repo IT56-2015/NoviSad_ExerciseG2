@@ -107,15 +107,15 @@ public class PlanetExplorer {
 			else if(pomocni.equalsIgnoreCase("b")){
 				if(smer.equalsIgnoreCase("n")){
 					if(koordinataY == 0){
-						koordinataY=3;
+						koordinataY=granicaY;
 					}
 					else{
 						koordinataY--;
 					}
 				}
 				else if(smer.equalsIgnoreCase("e")){
-					if(koordinataX == granicaX){
-						koordinataX=0;
+					if(koordinataX == 0){
+						koordinataX=granicaX;
 					}
 					else{
 						koordinataX++;
