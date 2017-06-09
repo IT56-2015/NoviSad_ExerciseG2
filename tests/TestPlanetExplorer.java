@@ -35,7 +35,7 @@ public class TestPlanetExplorer {
 	}
 	public void test_Prepreka() throws PlanetExplorerException{
 		String prepreke = "(1,1)";
-		PlanetExplorer pe = new PlanetExplorer(3, 3, prepreke);
+		PlanetExplorer pe = new PlanetExplorer(3, 3, null);
 		assertEquals("Greska!", "(1,0,e)", pe.executeCommand("frff"));
 	}
 }
