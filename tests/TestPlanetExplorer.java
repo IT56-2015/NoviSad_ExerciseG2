@@ -27,6 +27,6 @@ public class TestPlanetExplorer {
 	@Test
 	public void test_RF() throws PlanetExplorerException{
 		PlanetExplorer pe = new PlanetExplorer(3, 3, null);
-		assertEquals("Greska!", "(0,1,n)", pe.executeCommand("rf"));
+		assertEquals("Greska!", "(1,0,e)", pe.executeCommand("rf"));
 	}
 }
