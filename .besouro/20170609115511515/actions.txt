@@ -51,3 +51,12 @@ EditAction 1497004265751 PlanetExplorer.java 2581 12 17 0
 UnitTestCaseAction 1497004271077 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1497004271080 TestPlanetExplorer.java FAIL
 EditAction 1497004289710 TestPlanetExplorer.java 333 1 2 1
+UnitTestCaseAction 1497004294501 TestPlanetExplorer.java OK
+UnitTestSessionAction 1497004294502 TestPlanetExplorer.java OK
+FileOpenedAction 1497004307847 PlanetExplorerException.java 61 0 0 0
+RefactoringAction 1497004319865 PlanetExplorerException.java ADD String Exep FIELD
+RefactoringAction 1497004323878 PlanetExplorerException.java RENAME Exep=>String Ex FIELD
+RefactoringAction 1497004325889 PlanetExplorerException.java RENAME Ex=>String Exce FIELD
+RefactoringAction 1497004328400 PlanetExplorerException.java RENAME Exce=>String Exception FIELD
+RefactoringAction 1497004333916 PlanetExplorerException.java RENAME Exception=>String Exception() METHOD
+EditAction 1497004347422 PlanetExplorerException.java 110 1 1 0
