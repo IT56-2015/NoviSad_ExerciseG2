@@ -73,3 +73,11 @@ EditAction 1497004829654 PlanetExplorer.java 2953 12 17 0
 UnitTestCaseAction 1497004837776 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1497004837780 TestPlanetExplorer.java FAIL
 EditAction 1497004844345 TestPlanetExplorer.java 544 2 4 2
+UnitTestCaseAction 1497004849830 TestPlanetExplorer.java OK
+UnitTestSessionAction 1497004849831 TestPlanetExplorer.java OK
+RefactoringAction 1497004870364 TestPlanetExplorer.java ADD void tetst FIELD
+RefactoringAction 1497004872379 TestPlanetExplorer.java RENAME tetst=>void test FIELD
+RefactoringAction 1497004875407 TestPlanetExplorer.java RENAME test=>void test_ FIELD
+RefactoringAction 1497004883921 TestPlanetExplorer.java RENAME test_=>void test_F FIELD
+RefactoringAction 1497004886438 TestPlanetExplorer.java RENAME test_F=>void test_F() METHOD
+EditAction 1497005018497 TestPlanetExplorer.java 722 3 4 2
