@@ -41,8 +41,11 @@ public class PlanetExplorer {
 				else if(smer.equalsIgnoreCase("s")){
 					smer = "w";
 				}
-				else{
+				else if(smer.equalsIgnoreCase("w")){
 					smer="n";
+				}
+				else{
+					
 				}
 			}
 		}
