@@ -116,3 +116,6 @@ RefactoringAction 1497005614172 TestPlanetExplorer.java RENAME test_=>void test_
 RefactoringAction 1497005617689 TestPlanetExplorer.java RENAME test_Prepreka=>void test_Prepreka() METHOD
 EditAction 1497005966000 TestPlanetExplorer.java 1239 6 12 5
 EditAction 1497005987138 PlanetExplorer.java 3610 12 17 0
+UnitTestCaseAction 1497005990785 TestPlanetExplorer.java OK
+UnitTestSessionAction 1497005990787 TestPlanetExplorer.java OK
+EditAction 1497006097341 TestPlanetExplorer.java 1302 6 13 6
