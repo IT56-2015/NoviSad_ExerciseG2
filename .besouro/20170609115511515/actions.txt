@@ -161,3 +161,5 @@ RefactoringAction 1497006615003 PlanetExplorer.java REMOVE import org.junit.Asse
 EditAction 1497006677211 PlanetExplorer.java 4483 12 17 0
 EditAction 1497006710939 PlanetExplorer.java 4490 12 17 0
 EditAction 1497006730929 PlanetExplorer.java 4490 12 17 0
+UnitTestCaseAction 1497006737422 TestPlanetExplorer.java OK
+UnitTestSessionAction 1497006737423 TestPlanetExplorer.java OK
