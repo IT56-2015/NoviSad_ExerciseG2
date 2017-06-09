@@ -118,12 +118,12 @@ public class PlanetExplorer {
 						koordinataX=granicaX;
 					}
 					else{
-						koordinataX++;
+						koordinataX--;
 					}
 				}
 				else if(smer.equalsIgnoreCase("s")){
-					if(koordinataY == 0){
-						koordinataY=granicaY;
+					if(koordinataY == granicaY){
+						koordinataY=0;
 					}
 					else{
 						koordinataY--;
