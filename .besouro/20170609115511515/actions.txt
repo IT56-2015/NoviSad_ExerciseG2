@@ -81,3 +81,6 @@ RefactoringAction 1497004875407 TestPlanetExplorer.java RENAME test=>void test_ 
 RefactoringAction 1497004883921 TestPlanetExplorer.java RENAME test_=>void test_F FIELD
 RefactoringAction 1497004886438 TestPlanetExplorer.java RENAME test_F=>void test_F() METHOD
 EditAction 1497005018497 TestPlanetExplorer.java 722 3 4 2
+CompilationAction 1497005021826 TestPlanetExplorer.java
+CompilationAction 1497005021829 TestPlanetExplorer.java
+EditAction 1497005037151 TestPlanetExplorer.java 723 3 6 2
