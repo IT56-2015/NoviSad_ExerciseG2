@@ -78,7 +78,12 @@ public class PlanetExplorer {
 					smer = "n";
 				}
 				else if(smer.equalsIgnoreCase("s")){
-					smer = "e";
+					if(koordinataY == 0){
+						koordinataY=granicaY;
+					}
+					else{
+						koordinataY--;
+					}
 				}
 				else if(smer.equalsIgnoreCase("w")){
 					smer="s";
