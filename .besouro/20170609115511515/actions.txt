@@ -38,3 +38,4 @@ RefactoringAction 1497003590420 PlanetExplorer.java ADD String getSmer() METHOD
 RefactoringAction 1497003590422 PlanetExplorer.java ADD void setSmer(String) METHOD
 RefactoringAction 1497003865381 PlanetExplorer.java ADD import org.hamcrest.core.SubstringMatcher IMPORT
 EditAction 1497003973914 PlanetExplorer.java 2374 12 17 0
+EditAction 1497004006962 PlanetExplorer.java 2438 12 17 0
