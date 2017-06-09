@@ -106,3 +106,12 @@ RefactoringAction 1497005469154 TestPlanetExplorer.java RENAME test=>void test_ 
 RefactoringAction 1497005472191 TestPlanetExplorer.java RENAME test_=>void test_FFFF FIELD
 RefactoringAction 1497005475209 TestPlanetExplorer.java RENAME test_FFFF=>void test_FFFF() METHOD
 EditAction 1497005581624 TestPlanetExplorer.java 1085 5 10 5
+UnitTestCaseAction 1497005587012 TestPlanetExplorer.java OK
+UnitTestSessionAction 1497005587014 TestPlanetExplorer.java OK
+RefactoringAction 1497005606072 TestPlanetExplorer.java ADD void test FIELD
+RefactoringAction 1497005607094 TestPlanetExplorer.java RENAME test=>void test_ FIELD
+RefactoringAction 1497005609121 TestPlanetExplorer.java RENAME test_=>void test_pre FIELD
+RefactoringAction 1497005610641 TestPlanetExplorer.java RENAME test_pre=>void test_ FIELD
+RefactoringAction 1497005614172 TestPlanetExplorer.java RENAME test_=>void test_Prepreka FIELD
+RefactoringAction 1497005617689 TestPlanetExplorer.java RENAME test_Prepreka=>void test_Prepreka() METHOD
+EditAction 1497005966000 TestPlanetExplorer.java 1239 6 12 5
