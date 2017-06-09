@@ -90,3 +90,8 @@ UnitTestCaseAction 1497005049372 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1497005049374 TestPlanetExplorer.java FAIL
 EditAction 1497005184378 PlanetExplorer.java 3356 12 17 0
 EditAction 1497005235693 PlanetExplorer.java 3440 12 17 0
+UnitTestCaseAction 1497005248413 TestPlanetExplorer.java OK
+UnitTestSessionAction 1497005248415 TestPlanetExplorer.java OK
+RefactoringAction 1497005254870 TestPlanetExplorer.java ADD void test_F()/2 METHOD
+RefactoringAction 1497005266393 TestPlanetExplorer.java RENAME test_F()/2=>void test_RF() METHOD
+EditAction 1497005269888 TestPlanetExplorer.java 906 4 8 4
