@@ -75,7 +75,12 @@ public class PlanetExplorer {
 					}
 				}
 				else if(smer.equalsIgnoreCase("e")){
-					smer = "n";
+					if(koordinataX == granicaX){
+						koordinataX=0;
+					}
+					else{
+						koordinataX++;
+					}
 				}
 				else if(smer.equalsIgnoreCase("s")){
 					if(koordinataY == 0){
@@ -86,7 +91,12 @@ public class PlanetExplorer {
 					}
 				}
 				else if(smer.equalsIgnoreCase("w")){
-					smer="s";
+					if(koordinataX == 0){
+						koordinataX=granicaX;
+					}
+					else{
+						koordinataX--;
+					}
 				}
 				else{
 					
