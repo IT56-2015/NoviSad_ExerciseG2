@@ -1,3 +1,5 @@
+import java.util.concurrent.ExecutionException;
+
 import org.hamcrest.core.SubstringMatcher;
 
 // Before you commit and push write your student ID and finish time here.
@@ -26,7 +28,7 @@ public class PlanetExplorer {
 		
 	}
 	
-	public String executeCommand(String command){
+	public String executeCommand(String command)throws PlanetExplorerException{
 		
 		char[] komanda = command.toCharArray();
 		for(int i=0; i<command.length(); i++){
@@ -45,7 +47,7 @@ public class PlanetExplorer {
 					smer="n";
 				}
 				else{
-					
+					throw new PlanetExplorerException();
 				}
 			}
 			else if(pomocni.equalsIgnoreCase("l")){
@@ -62,7 +64,7 @@ public class PlanetExplorer {
 					smer="s";
 				}
 				else{
-					
+					throw new PlanetExplorerException();
 				}
 			}
 			else if(pomocni.equalsIgnoreCase("f")){
@@ -99,7 +101,44 @@ public class PlanetExplorer {
 					}
 				}
 				else{
-					
+					throw new PlanetExplorerException();
+				}
+			}
+			else if(pomocni.equalsIgnoreCase("b")){
+				if(smer.equalsIgnoreCase("n")){
+					if(koordinataY == 0){
+						koordinataY=3;
+					}
+					else{
+						koordinataY--;
+					}
+				}
+				else if(smer.equalsIgnoreCase("e")){
+					if(koordinataX == granicaX){
+						koordinataX=0;
+					}
+					else{
+						koordinataX++;
+					}
+				}
+				else if(smer.equalsIgnoreCase("s")){
+					if(koordinataY == 0){
+						koordinataY=granicaY;
+					}
+					else{
+						koordinataY--;
+					}
+				}
+				else if(smer.equalsIgnoreCase("w")){
+					if(koordinataX == 0){
+						koordinataX=granicaX;
+					}
+					else{
+						koordinataX--;
+					}
+				}
+				else{
+					throw new PlanetExplorerException();
 				}
 			}
 		}

@@ -33,9 +33,15 @@ public class TestPlanetExplorer {
 		PlanetExplorer pe = new PlanetExplorer(3, 3, null);
 		assertEquals("Greska!", "(1,0,n)", pe.executeCommand("ffff"));
 	}
-	public void test_Prepreka() throws PlanetExplorerException{
-		String prepreke = "(1,1)";
+	@Test
+	public void test_B() throws PlanetExplorerException{
 		PlanetExplorer pe = new PlanetExplorer(3, 3, null);
-		assertEquals("Greska!", "(1,0,s)", pe.executeCommand("frff"));
+		assertEquals("Greska!", "(0,3,n)", pe.executeCommand("b"));
 	}
+
+//	public void test_Prepreka() throws PlanetExplorerException{
+//		String prepreke = "(1,1)";
+//		PlanetExplorer pe = new PlanetExplorer(3, 3, prepreke);
+//		assertEquals("Greska!", "(1,0,s)", pe.executeCommand("frff"));
+//	}
 }

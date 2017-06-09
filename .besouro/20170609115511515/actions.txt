@@ -146,3 +146,16 @@ EditAction 1497006349697 TestPlanetExplorer.java 1297 6 13 6
 UnitTestCaseAction 1497006361412 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1497006361413 TestPlanetExplorer.java FAIL
 EditAction 1497006383082 TestPlanetExplorer.java 1297 6 13 6
+UnitTestCaseAction 1497006389143 TestPlanetExplorer.java OK
+UnitTestSessionAction 1497006389144 TestPlanetExplorer.java OK
+RefactoringAction 1497006433328 PlanetExplorer.java ADD import java.util.concurrent.ExecutionException IMPORT
+RefactoringAction 1497006538523 TestPlanetExplorer.java REMOVE test_Prepreka() METHOD
+RefactoringAction 1497006548054 TestPlanetExplorer.java ADD void test_FFFF()/2 METHOD
+RefactoringAction 1497006561080 TestPlanetExplorer.java REMOVE test_FFFF()/2 METHOD
+RefactoringAction 1497006577225 TestPlanetExplorer.java ADD void test_F()/2 METHOD
+RefactoringAction 1497006580250 TestPlanetExplorer.java RENAME test_F()/2=>void test_B() METHOD
+UnitTestCaseAction 1497006601837 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1497006601838 TestPlanetExplorer.java FAIL
+RefactoringAction 1497006613958 PlanetExplorer.java ADD import org.junit.Assert.assertEquals IMPORT
+RefactoringAction 1497006615003 PlanetExplorer.java REMOVE import org.junit.Assert.assertEquals IMPORT
+EditAction 1497006677211 PlanetExplorer.java 4483 12 17 0
