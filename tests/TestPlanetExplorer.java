@@ -12,6 +12,6 @@ public class TestPlanetExplorer {
 	@Test
 	public void test_R(){
 		PlanetExplorer pe = new PlanetExplorer(3, 3, null);
-		pe.executeCommand("r");
+		assertEquals("Greska!", "e", pe.executeCommand("r"));
 	}
 }
