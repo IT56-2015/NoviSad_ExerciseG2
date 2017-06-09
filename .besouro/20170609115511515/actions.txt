@@ -67,3 +67,6 @@ RefactoringAction 1497004622422 TestPlanetExplorer.java RENAME test_=>void test_
 RefactoringAction 1497004623436 TestPlanetExplorer.java RENAME test_L=>void test_L() METHOD
 EditAction 1497004722386 TestPlanetExplorer.java 543 2 4 2
 EditAction 1497004728063 PlanetExplorer.java 2634 12 17 0
+UnitTestCaseAction 1497004732034 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1497004732036 TestPlanetExplorer.java FAIL
+EditAction 1497004829654 PlanetExplorer.java 2953 12 17 0

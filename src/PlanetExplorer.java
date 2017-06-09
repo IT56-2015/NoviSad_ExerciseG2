@@ -48,6 +48,23 @@ public class PlanetExplorer {
 					
 				}
 			}
+			else if(pomocni.equalsIgnoreCase("l")){
+				if(smer.equalsIgnoreCase("n")){
+					smer = "w";
+				}
+				else if(smer.equalsIgnoreCase("e")){
+					smer = "n";
+				}
+				else if(smer.equalsIgnoreCase("s")){
+					smer = "e";
+				}
+				else if(smer.equalsIgnoreCase("w")){
+					smer="s";
+				}
+				else{
+					
+				}
+			}
 		}
 		
 		/* The command string is composed of "f" (forward), "b" (backward), "l" (left) and "r" (right)
